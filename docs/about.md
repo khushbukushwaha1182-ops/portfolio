@@ -2,7 +2,7 @@
 
 ## Executive Bio
 
-I am a **Business & Data Analyst** with a focus on translating operational, customer, and product data into actionable business strategies and measurable revenue growth.
+I am **Khushbu Kushwaha** with a focus on translating operational, customer, and product data into actionable business strategies and measurable revenue growth.
 
 With experience spanning **SQL data extraction**, **statistical A/B testing**, **executive BI dashboards**, and **customer retention modeling**, my work bridges the gap between complex raw database tables and strategic executive decisions.
 
