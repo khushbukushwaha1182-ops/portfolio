@@ -1,0 +1,63 @@
+site_name: Data & Business Analyst Portfolio
+site_description: Portfolio showcasing data-driven business impact, analytics case studies, BI dashboards, and experimentation stories.
+site_author: Data Analyst
+
+plugins:
+  - search
+  - macros
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Projects:
+      - All Projects: projects/index.md
+      - E-Commerce Churn Analysis: projects/ecommerce-churn.md
+      - Executive BI Dashboard: projects/executive-bi.md
+      - Pricing A/B Test Experiment: projects/pricing-ab-test.md
+  - Resume: resume.md
