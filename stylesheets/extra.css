@@ -1,0 +1,200 @@
+/* Custom CSS Design System for Analyst Portfolio */
+
+:root {
+  --md-primary-fallback-color: #3f51b5;
+  --kpi-bg-light: #f8fafc;
+  --kpi-border-light: #e2e8f0;
+  --kpi-bg-dark: #1e293b;
+  --kpi-border-dark: #334155;
+  --accent-gradient: linear-gradient(135deg, #6366f1 0%, #06b6d4 100%);
+}
+
+/* Hero Banner Styling */
+.hero-banner {
+  padding: 2.5rem 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  background: var(--accent-gradient);
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 10px 25px -5px rgba(99, 102, 241, 0.3);
+}
+
+.hero-banner h1 {
+  color: #ffffff !important;
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.hero-banner p {
+  font-size: 1.15rem;
+  opacity: 0.95;
+  max-width: 750px;
+  margin: 0.5rem auto 1.5rem auto;
+}
+
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.btn-hero {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.4rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-hero-primary {
+  background-color: #ffffff;
+  color: #4f46e5 !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.btn-hero-secondary {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.btn-hero:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px -3px rgba(0, 0, 0, 0.2);
+}
+
+/* KPI Cards Grid */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 2rem 0;
+}
+
+.kpi-card {
+  padding: 1.25rem;
+  border-radius: 10px;
+  background-color: var(--kpi-bg-light);
+  border: 1px solid var(--kpi-border-light);
+  text-align: center;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+[data-md-color-scheme="slate"] .kpi-card {
+  background-color: var(--kpi-bg-dark);
+  border-color: var(--kpi-border-dark);
+}
+
+.kpi-card:hover {
+  transform: translateY(-3px);
+  border-color: #6366f1;
+}
+
+.kpi-value {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #4f46e5;
+  margin-bottom: 0.25rem;
+  line-height: 1.1;
+}
+
+[data-md-color-scheme="slate"] .kpi-value {
+  color: #818cf8;
+}
+
+.kpi-label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.8;
+}
+
+/* Project Cards Grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.project-card {
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid var(--kpi-border-light);
+  background-color: var(--kpi-bg-light);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+[data-md-color-scheme="slate"] .project-card {
+  border-color: var(--kpi-border-dark);
+  background-color: var(--kpi-bg-dark);
+}
+
+.project-card h3 {
+  margin-top: 0 !important;
+  font-size: 1.25rem;
+  color: #334155;
+}
+
+[data-md-color-scheme="slate"] .project-card h3 {
+  color: #f1f5f9;
+}
+
+/* Skill Badges */
+.badge-chip {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 9999px;
+  background-color: #e0e7ff;
+  color: #3730a3;
+  margin-right: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+[data-md-color-scheme="slate"] .badge-chip {
+  background-color: #312e81;
+  color: #c7d2fe;
+}
+
+/* Impact Highlights Box */
+.impact-box {
+  border-left: 4px solid #10b981;
+  background-color: #ecfdf5;
+  padding: 1rem 1.25rem;
+  border-radius: 0 8px 8px 0;
+  margin: 1.5rem 0;
+}
+
+[data-md-color-scheme="slate"] .impact-box {
+  background-color: #064e3b;
+  border-left-color: #34d399;
+}
+
+.impact-box strong {
+  color: #047857;
+}
+
+[data-md-color-scheme="slate"] .impact-box strong {
+  color: #6ee7b7;
+}
+
+/* Clean Tables */
+.md-typeset table:not([class]) {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
