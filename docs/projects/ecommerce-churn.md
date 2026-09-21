@@ -1,57 +1,73 @@
 ---
-title: E-Commerce Customer Churn & Retention Analysis
-category: Customer Retention
-tools: SQL, Python, Cohort Analysis
-impact: -4.2% Churn Rate (+$420K ARR)
-problem: Monthly user churn increased by 14% over two consecutive quarters.
-solution: Conducted RFM segmentation and cohort retention analysis to isolate churn drivers.
-results: Reduced annual churn rate by 4.2% and reclaimed $420K in annual recurring revenue.
+title: Crime Analysis in India (2016-2018)
+category: Data Analytics | Public Safety
+tools: Python, Pandas, Matplotlib, Google Colab
+impact: Identified state-wise and year-wise crime trends through exploratory data analysis and visualization.
+problem: Large crime datasets made it difficult to identify regional crime patterns and yearly trends.
+solution: Cleaned and analyzed crime data using Python, performed EDA and created visualizations to uncover meaningful insights.
+results: Developed analytical reports and visual dashboards that highlighted crime hotspots and supported data-driven decison-making.
 ---
 
-# Case Study 1: E-Commerce Churn Analysis & Retention Strategy
+# Case Study 1: Crime Analysis in India (2016-2018)
 
-## Executive Summary
+## Introduction
 
-An e-commerce retailer experienced a gradual **14% increase in customer churn** over two quarters. This project analyzed historical purchase transactions and user activity logs to identify churn indicators, segment high-risk accounts, and deliver targeted retention strategies.
+ Analyzed crime data from Indian states(2016-2018) using Python to identify state-wise and year-wise crime trends. The project focused on cleaning raw data, performing exploratory data analysis (EDA) and creating visualizations that highlighted crime patterns to support data-driven decision-making.
 
 ---
 
 ## Business Problem & Context
 
-* **Industry:** B2C E-Commerce & Retail
-* **Core Challenge:** Customer repeat purchase rates dropped from 38% to 24% within 90 days of initial order.
-* **Goal:** Identify root causes of churn, build a churn prediction framework, and recommend high-impact interventions.
-
+* **Industry:** Public Safety & Government
+* **Core Challenge:** Government agencies requires reliable analysis of crime statistics to understand regional crime patterns and allocate resources effectively. Large datasets make it difficult to identify trends without analytical tools.
 ---
 
 ## Key Metrics & Results
 
-| Metric | Before Intervention | After Strategy Implementation | Net Change |
-| :--- | :--- | :--- | :--- |
-| **90-Day Churn Rate** | 24.5% | 20.3% | **-4.2%** |
-| **Repeat Purchase Rate** | 24.0% | 31.5% | **+7.5%** |
-| **Annual Recurring Impact** | Baseline | +$420,000 | **+$420K ARR** |
+| Metric | Value |
+| :--- | :--- |
+| **Analysis Period** | 2016-2018 |
+| **Total Rape Cases** | 32,559 |
+| **Total Victims** | 33,658 |
+| **Child Victims (<18)** | 10,221 (30.4%)
+| **Adult Victims (18+)** | 23,437 (69.6%)
+| **Highest Crime State** | Madhya Pradesh (5,562 cases)
+| **Tools Used** | Python, Pandas, NumPy, Matplotlib, Google Colab |
 
+---
+
+| **Result** | Finding |
+| :--- | :---|
+| **State-wise Analysis** | Madhya Pradesh reported the highest rape cases. |
+| **Victim Analysis** | 69.6% victims were adults and 30.4% were childern. |
+| **Trend Analysis** | Compared crime data across 2016-2018 to identify trends. |
+| **Police Analysis** | Analyzed cases against police personnel and custody escapes. |
+| **Data Visualization** | Created charts to present crime trends and insights clearly. |
 ---
 
 ## Analytical Methodology
 
-1. **Cohort Analysis:** Grouped customers by signup month and tracked repurchase behavior at 30, 60, 90, and 180-day intervals.
-2. **RFM Segmentation:** Categorized users based on Recency, Frequency, and Monetary value into distinct personas (Champions, At-Risk, Lapsed).
-3. **Behavioral Trajectory:** Analyzed interaction frequency prior to last purchase to pinpoint early warning signals (e.g., steep drop in email opens and site logins 14 days before churn).
-
+1. **Data Collection:** Imported crime datasets (2016-2018) related to rape victims, cases against police personnel and police custody escapes using Python and Pandas.
+2. **Data Preparation:** Cleaned missing values, standardized column names, merged yearly datasets and removed duplicate records to ensure accurate analysis.
+3. **Exploratory Data Analysis (EDA):** Analyzed state-wise and year-wise crime trends, compared victims demographics and examined police-related crime statistics.
+4. **Data Visualization:** Developed bar charts and pie charts using Matplotlib to highlight crime hotspots, victim distribution and annual trends.
+5. **Insight generation:** Interpreted patterns to identify high-crime states, victim demographics and trends that could support evidence-based policy decisions.
 ---
 
 ## Key Findings & Insights
 
-* **The 30-Day Inflection Point:** 68% of churned users made no second session visit within 30 days of their initial order.
-* **Shipping Delay Sensitivity:** Customers who experienced delivery delays exceeding 5 days had a 2.4x higher churn rate than those with standard 2-3 day fulfillment.
-* **Category Affinity:** Buyers who purchased from multiple product categories within their first 30 days exhibited a 45% higher customer lifetime value (LTV).
-
+* **High Crime State:** Madhya Pradesh recorded the highest number of reported rape cases (5,562) during the analysis period.
+* **Victim Distribution:** Adult women accounted for 69.6% of victims, while 30.4% were children below 18 years.
+* **Crime Trend:** Analysis of data from 2016-2018 helped identify year-wise changes in reported rape cases across states.
+* **Regional Analysis:** Significant differences in crime rates were observed across states, highlighting regional crime hotspots.
+* **Law Enforcement Analysis:** Examined cases against police personnel and custody escape records to understand accountability trends.
 ---
 
 ## Strategic Recommendations
 
-* **Automated Re-Engagement Triggers:** Launch automated email and push notifications at day 14 post-purchase offering personalized complementary product recommendations.
-* **Logistics Alerts:** Flag delayed shipments automatically to customer support to proactively trigger automated $10 loyalty credit vouchers.
-* **Cross-Category Promotions:** Bundle top items from complementary categories during initial checkout to encourage multi-category exploration.
+* **Target High-Risk States:** Prioritize awareness campaigns, faster investigations and victim support services in states with consistently high reported cases.
+* **Strengthen Child Protection:** Increase safety programs, reporting mechanisms and preventive measures for children below 18 years.
+* **Improve Police Accountability:** Regularly monitor cases involving police personnel and strengthen internal review mechanisms.
+* **Use Data for Decision-Making:** Develop interactive dashboards for policymakers to monitor crime trends and allocate resources effectively.
+* **Enhance Data Quality:** Standardize crime reporting across states to improve the accuracy and consistency of future analyses.
+

@@ -12,7 +12,7 @@ results: Reduced weekly reporting prep time by 12 hours and improved executive d
 
 ## Executive Summary
 
-Leadership across Sales, Product, and Finance struggled with fragmented, manual weekly reporting that took over 12 hours to assemble. This project established a unified business intelligence dashboard suite providing real-time visibility into executive KPIs, revenue trends, and operational funnel efficiency.
+it across Sales, Product, and Finance struggled with fragmented, manual weekly reporting that took over 12 hours to assemble. This project established a unified business intelligence dashboard suite providing real-time visibility into executive KPIs, revenue trends, and operational funnel efficiency.
 
 ---
 
