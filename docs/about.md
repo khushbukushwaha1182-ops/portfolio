@@ -43,4 +43,4 @@ I'm currently seeking opportunities as a **Business Analyst, Data Analyst or MIS
 3. **Analyze & Discover Insights:** Apply SQL, Python and excel to identify trends, patterns and opportunities hidden within the data.
 4. **Visualize Results:** Create interactive dashboards and charts that communicate findings clearly to stakeholders.
 5. **Recommend Actionable Solutions:** Translate analytical findings into pratical recommendations that support better business decisions.
-6. **Continuous Learning:** Continuously improve analytical skills by working on real-world datasets
+6. **Continuous Learning:** Continuously improve analytical skills by working on real-world datasets.
