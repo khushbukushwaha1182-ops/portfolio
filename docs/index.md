@@ -16,7 +16,7 @@ Welcome to my portfolio! I am a **Business & Data Analyst** specializing in data
 
 ## Contact & Connect
 
-* **Email:** [analyst@example.com](mailto:analyst@example.com)
-* **LinkedIn:** [linkedin.com/in/data-analyst](https://linkedin.com)
-* **GitHub:** [github.com/data-analyst](https://github.com)
+* **Email:** [khushbu.kushwaha1182@gmail.com](khushbu.kushwaha1182@gmail.com)
+* **LinkedIn:** [https://www.linkedin.com/in/khushbu-kushwaha-1689a9188/](https://www.linkedin.com/in/khushbu-kushwaha-1689a9188/)
+* **GitHub:** [https://github.com/khushbukushwaha1182-ops](https://github.com/khushbukushwaha1182-ops)
 * **Resume:** [Download Resume PDF](resume.md)
